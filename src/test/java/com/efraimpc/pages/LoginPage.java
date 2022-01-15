@@ -14,10 +14,10 @@ public class LoginPage {
 	@FindBy(id="password")
 	public WebElement txtPassword;
 	
-	@FindBy(xpath="//input[@value='LOGIN']")
+	@FindBy(xpath="//input[@id='login-button']")
 	public WebElement btnLogin;
 	
-	@FindBy(xpath="//h3[@data-test='error']")
+	@FindBy(xpath="//div[@class='error-message-container error']")
 	public WebElement lblErrorMsg;
 	
 	public LoginPage() {

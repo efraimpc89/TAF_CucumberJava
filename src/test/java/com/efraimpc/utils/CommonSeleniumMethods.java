@@ -140,7 +140,7 @@ public class CommonSeleniumMethods extends PageInitializer{
 		 
 		 File file = ts.getScreenshotAs(OutputType.FILE);
 		 
-		 String destination = Constants.SCREENSHOT_FILEPATH + fileName + getTimeStamp() + ".jpg";
+		 String destination = Constants.SCREENSHOT_FILEPATH + fileName + getTimeStamp() + ".png";
 		 
 		 try {
 			 FileUtils.copyFile(file, new File(destination));
