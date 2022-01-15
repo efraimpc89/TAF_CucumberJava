@@ -45,7 +45,7 @@ public class ExcelUtility {
 	}
 	
 	/**
-	 * Returns the excel fila as a 2D object array
+	 * Returns the excel file as a 2D object array
 	 * @param filePath
 	 * @param sheetName
 	 * @return
